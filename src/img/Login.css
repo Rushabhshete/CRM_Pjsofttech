@@ -1,0 +1,36 @@
+.custom-container {
+    
+    padding: 50px;
+}
+
+.custom-card {
+    border: 1px solid #CED4DA; /* Add a border to the card */
+    border-radius: 10px; /* Optional: Round the corners of the card */
+    max-width: 500px; /* Limit the maximum width of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a better visual effect */
+    margin: auto; /* Center the card horizontally and vertically */
+    text-align: center; /* Center the content inside the card */
+    padding: 30px; /* Add padding inside the card */
+}
+
+.custom-form {
+    display: grid;
+    gap: 16px;
+}
+
+.custom-form label {
+    font-weight: bold;
+    color: #343A40; /* Dark text color */
+}
+
+.text-danger {
+    color: red; /* Custom styling for error message */
+}
+
+.logo {
+    max-width: 90px;
+    margin-bottom: 20px;
+    display: block; /* Center the image horizontally */
+    margin: 0 auto 20px auto; /* Center the image horizontally and add bottom margin */
+    background-color: transparent;
+}

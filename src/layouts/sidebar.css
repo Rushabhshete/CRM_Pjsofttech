@@ -1,0 +1,29 @@
+.sidebar {
+    width: 250px; /* Default width of the sidebar */
+    height: 100%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    transition: width 0.3s ease;
+    overflow-y: auto; /* Allow scrolling if sidebar height exceeds viewport */
+  }
+  
+  .sidebar.minimized {
+    width: 50px; /* Minimized width of the sidebar */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar button {
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+  }
+  

@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.sidebar .MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #FAD126, #FF564E);
+  color: white;
+}
+
+.sidebar .MuiListItemIcon-root {
+  color: white;
+}
+
+/* Header Styles */
+.header {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to right, #FAD126, #FF564E);
+
+}
+
+.header-title {
+  flex-grow: 1;
+}

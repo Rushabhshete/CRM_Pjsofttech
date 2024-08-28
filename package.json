@@ -1,0 +1,78 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.7",
+    "@mui/styles": "^5.16.7",
+    "@mui/x-date-pickers": "^6.0.0",
+    "@mui/x-date-pickers-pro": "^7.11.0",
+    "@restart/ui": "^1.8.0",
+    "@syncfusion/ej2-react-inputs": "^26.1.38",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.4",
+    "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "number-to-words": "^1.2.4",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-countup": "^6.5.3",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.3.1",
+    "react-google-charts": "^4.0.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "^5.0.1",
+    "react-spring": "^9.7.3",
+    "react-to-print": "^2.15.1",
+    "react-toastify": "^10.0.5",
+    "react-transition-group": "^4.4.5",
+    "reactstrap": "^9.2.2",
+    "recharts": "^2.12.7",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "babel-preset-react-app": "^10.0.1",
+    "html-webpack-plugin": "^5.6.0"
+  },
+  "proxy":"http://localhost:8081"
+}

@@ -1,0 +1,46 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .form-paper {
+    padding: 24px;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .grid-item-full {
+    flex-basis: 100%;
+  }
+  
+  .text-field {
+    width: 100%;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  
+  .upload-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .upload-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-button {
+    margin-top: 10px;
+  }
+  
