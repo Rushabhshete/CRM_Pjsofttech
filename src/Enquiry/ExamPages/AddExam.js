@@ -166,8 +166,8 @@ export default function AddExam() {
         message={errorMessage}
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         ContentProps={{
-          sx: { backgroundColor: snackbarColor }, // Set Snackbar background color based on state
-        }}
+          sx: { backgroundColor: snackbarColor }, 
+         }}
       />
     </Container>
   );
